@@ -30,44 +30,44 @@ Algoritmo Calculadora_VSantiago
 		Escribir '                                 ||_______________________________________||'
 		Escribir ''
 		Escribir ''
-		Escribir '                                ==Selecciona una operaci髇 matem醫ica para iniciar...=='
+		Escribir '                                ==Selecciona una operaci贸n matem谩tica para iniciar...=='
 		Escribir ""
 		Escribir ""
 		Escribir ""
 		Leer opcion
 		Si opcion<>5 Entonces
-			Escribir '                    ==Bien, selecciona ahora la cantidad de numeros que usar醩 para la operaci髇...=='
+			Escribir '                    ==Bien, selecciona ahora la cantidad de numeros que usar谩s para la operaci贸n...=='
 			Leer cantidadNumeros
-			Escribir 'Digite el n鷐ero 1: '
+			Escribir 'Digite el n煤mero 1: '
 			Escribir ""
 			Escribir ""
 			Escribir ""
 			Leer numero
 			resultado <- numero
 			Para i<-2 Hasta cantidadNumeros Hacer
-				Escribir 'Digite el n鷐ero '   ,i,': '
+				Escribir 'Digite el n煤mero '   ,i,': '
 				Escribir ""
 				Escribir ""
 				Escribir ""
 				Leer numero
 				Si opcion=1 Entonces
-					Escribir "Has seleccionadola la operaci髇  ", opcion, "  que es igual a la suma."
+					Escribir "Has seleccionadola la operaci贸n  ", opcion, "  que es igual a la suma."
 					resultado <- resultado+numero
 				SiNo
 					Si opcion=2 Entonces
-					escribir "Has seleccionadola la operaci髇  ", opcion, "  que es igual a la resta."
+					escribir "Has seleccionadola la operaci贸n  ", opcion, "  que es igual a la resta."
 						resultado <- resultado-numero
 					SiNo
 						Si opcion=3 Entonces
-							escribir "Has seleccionadola la operaci髇  ", opcion, "  que es igual a la multiplicaci髇."
+							escribir "Has seleccionadola la operaci贸n  ", opcion, "  que es igual a la multiplicaci贸n."
 							resultado <- resultado*numero
 						SiNo
 							Si opcion=4 Entonces
-								escribir "Has seleccionadola la operaci髇  ", opcion, "  que es igual a la divisi髇."
+								escribir "Has seleccionadola la operaci贸n  ", opcion, "  que es igual a la divisi贸n."
 								Si numero<>0 Entonces
 									resultado <- resultado/numero
 								SiNo
-									Escribir 'Es imposible dividir entre cero a no ser que seas un revolucionario matem醫ico XD'
+									Escribir 'Es imposible dividir entre cero a no ser que seas un revolucionario matem谩tico XD'
 								FinSi
 							FinSi
 						FinSi
@@ -80,7 +80,7 @@ Algoritmo Calculadora_VSantiago
 			Escribir '                                 ||---------------------------------------||'
 			Escribir '                                 || CASIO                   FX-350ES PLUS ||'
 			Escribir '                                 ||---------------------------------------||'
-			Escribir '                                 ||Tu operaci髇 da como resultado ',resultado, "       ||"
+			Escribir '                                 ||Tu operaci贸n da como resultado ',resultado, "       ||"
 			Escribir '                                 ||_______________________________________||' 
 			Escribir '                                 ||_______________________________________||'
 			Escribir '                                 ||_<1>_+__||__1__||__2__||__3__||__4__|| ||'
